@@ -1,0 +1,12 @@
+{
+  "name": "openapi-generator-unknown-base-type",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "gen": "openapi-generator-cli generate -g typescript-fetch -i spec.yaml -o gen"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@openapitools/openapi-generator-cli": "2.4.26"
+  }
+}
